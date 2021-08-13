@@ -1,0 +1,22 @@
+name: stripe_apple_pay_example
+description: Demonstrates how to use the stripe_apple_pay plugin.
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  stripe_apple_pay:
+    path: ../
+
+flutter:
+  uses-material-design: true
